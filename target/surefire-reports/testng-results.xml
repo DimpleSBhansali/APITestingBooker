@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-22T19:38:09 PST" name="Command line suite" finished-at="2023-02-22T19:38:26 PST" duration-ms="16695">
+    <groups>
+    </groups>
+    <test started-at="2023-02-22T19:38:09 PST" name="Command line test" finished-at="2023-02-22T19:38:26 PST" duration-ms="16695">
+      <class name="testscripts.DemoTest">
+        <test-method signature="phoneNumbersTest()[pri:0, instance:testscripts.DemoTest@77e9807f]" started-at="2023-02-22T19:38:23 PST" name="phoneNumbersTest" finished-at="2023-02-22T19:38:24 PST" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNumbersTest -->
+        <test-method signature="phoneNumbersTypeTest()[pri:0, instance:testscripts.DemoTest@77e9807f]" started-at="2023-02-22T19:38:24 PST" name="phoneNumbersTypeTest" finished-at="2023-02-22T19:38:26 PST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneNumbersTypeTest -->
+      </class> <!-- testscripts.DemoTest -->
+      <class name="testscripts.CreateBookingTest">
+        <test-method is-config="true" signature="generateToken()[pri:0, instance:testscripts.CreateBookingTest@19dc67c2]" started-at="2023-02-22T19:38:09 PST" name="generateToken" finished-at="2023-02-22T19:38:12 PST" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateToken -->
+        <test-method signature="createBookingTestWithPOJO()[pri:0, instance:testscripts.CreateBookingTest@19dc67c2]" started-at="2023-02-22T19:38:12 PST" name="createBookingTestWithPOJO" finished-at="2023-02-22T19:38:14 PST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingTestWithPOJO -->
+        <test-method is-config="true" signature="generateToken()[pri:0, instance:testscripts.CreateBookingTest@19dc67c2]" started-at="2023-02-22T19:38:14 PST" name="generateToken" finished-at="2023-02-22T19:38:15 PST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateToken -->
+        <test-method signature="partialUpdateBookingIdTest()[pri:4, instance:testscripts.CreateBookingTest@19dc67c2]" started-at="2023-02-22T19:38:15 PST" name="partialUpdateBookingIdTest" finished-at="2023-02-22T19:38:17 PST" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialUpdateBookingIdTest -->
+        <test-method is-config="true" signature="generateToken()[pri:0, instance:testscripts.CreateBookingTest@19dc67c2]" started-at="2023-02-22T19:38:17 PST" name="generateToken" finished-at="2023-02-22T19:38:18 PST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateToken -->
+        <test-method signature="deleteBookingIdTest()[pri:5, instance:testscripts.CreateBookingTest@19dc67c2]" started-at="2023-02-22T19:38:18 PST" name="deleteBookingIdTest" finished-at="2023-02-22T19:38:23 PST" duration-ms="4667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingIdTest -->
+      </class> <!-- testscripts.CreateBookingTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
